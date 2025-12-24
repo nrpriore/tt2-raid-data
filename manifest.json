@@ -1,0 +1,13 @@
+{
+  "dataVersion": 7.17,
+  "baseUrl": "https://nrpriore.github.io/tt2-raid-data/data/",
+  "files": [
+    "Skill.txt",
+    "Level.txt",
+    "Enemy.txt",
+    "Area.txt",
+    "RaidResearch.txt",
+    "TitanResearch.txt",
+    "GemstoneResearch.txt"
+  ]
+}
