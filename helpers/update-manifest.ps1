@@ -49,10 +49,11 @@ foreach ($file in $configFiles) {
 }
 $manifest.config.files = $configHashMap
 
-# Bump dataVersion (you can comment this out if you want to control manually)
-$manifest.dataVersion = (Get-Date -Format "yyyy.MM.dd")
+# Bump dataVersion with UTC date+time (minute precision)
+$manifest.dataVersion = (Get-Date).ToUniversalTime().ToString("yyyy.MM.dd-HH.mm")
 
 # Write manifest back
 $manifest | ConvertTo-Json -Depth 20 | Out-File $manifestPath -Encoding utf8
 
 Write-Host "manifest.json updated successfully"
+Write-Host ("dataVersion set to " + $manifest.dataVersion)

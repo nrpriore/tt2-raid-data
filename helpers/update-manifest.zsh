@@ -50,15 +50,19 @@ json_cfg=$(for k v in ${(kv)CONFIG_HASHES}; do
   printf '"%s":"%s"\n' "$k" "$v"
 done | paste -sd, -)
 
-# Ensure csvData/config objects exist, set files, bump dataVersion
+# UTC timestamp minute precision
+ver="$(date -u +%Y.%m.%d-%H.%M)"
+
+# Update manifest using jq
 jq \
   ".csvData |= (. // {}) |
    .csvData.files = { $json_csv } |
    .config |= (. // {}) |
    .config.files = { $json_cfg } |
-   .dataVersion = \"$(date +%Y.%m.%d)\"" \
+   .dataVersion = \"$ver\"" \
   "$MANIFEST" > "$MANIFEST.tmp"
 
 mv "$MANIFEST.tmp" "$MANIFEST"
 
 echo "manifest.json updated successfully"
+echo "dataVersion set to $ver"
