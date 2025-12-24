@@ -27,4 +27,4 @@ Each file contains delimited data that is parsed by the simulator.
 
 ## 🧾 Manifest
 
-The app checks `manifest.json` to determine whether new data is available.
+The app checks `manifest.json` to determine whether the dataVersion has changed and then uses the computed hash per file to determine if any updates are needed.
