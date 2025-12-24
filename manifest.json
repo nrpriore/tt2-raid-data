@@ -1,13 +1,13 @@
 {
-  "dataVersion": "7.17",
+  "dataVersion": "2025.12.24",
   "baseUrl": "https://nrpriore.github.io/tt2-raid-data/data/",
-  "files": [
-    "Skill.txt",
-    "Level.txt",
-    "Enemy.txt",
-    "Area.txt",
-    "RaidResearch.txt",
-    "TitanResearch.txt",
-    "GemstoneResearch.txt"
-  ]
+  "files": {
+    "Enemy.txt": "sha256:228edd7e427327eaad644bfb244740c056d15c966844a5653e2d05e52b446f11",
+    "RaidResearch.txt": "sha256:c845df39674ef3c0ac821d1200bcb8f173683b3e1b223a5b1731b2130fe9204e",
+    "GemstoneResearch.txt": "sha256:0cab82b4108bc7625187a5043b9cafd1959d90d6d8672b982df77559892cda7e",
+    "TitanResearch.txt": "sha256:d18f4cf3492cc8d67317233c6eb823e6e247b4fa1d04330c3ca53a4d18c7fcea",
+    "Skill.txt": "sha256:444913cb896b0f868c28a9db6d8e0e92e81c6bc7669afe999dc304cdcc374d1d",
+    "Area.txt": "sha256:e97fa2d2f2694a458c79e18dddc9895a176f5e12257970db6ffef60fdc44f700",
+    "Level.txt": "sha256:dc51dfb251c5e3fff443f3506834caab772902ad64c68a3909983552b703aceb"
+  }
 }
