@@ -1,5 +1,5 @@
 {
-  "dataVersion": "2025.12.25-01.03",
+  "dataVersion": "2025.12.25-01.19",
   "csvData": {
     "baseUrl": "https://nrpriore.github.io/tt2-raid-data/data/",
     "files": {
@@ -15,7 +15,7 @@
   "config": {
     "baseUrl": "https://nrpriore.github.io/tt2-raid-data/config/",
     "files": {
-      "season.json": "sha256:92fc7cf0e9bd90bd6875469485f08a550132f6a5c031e258c14f49d1f128c02a"
+      "season.json": "sha256:10346c7ce8fbdf57d3c3a28ad8346e66529f57b52c240f8cac7d4f7c19708384"
     }
   }
 }
