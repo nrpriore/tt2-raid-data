@@ -1,8 +1,8 @@
 ﻿{
-  "dataVersion": "2026.07.07-04.06",
+  "dataVersion": "2026.09.20-21.55",
   "releaseNotes": {
-    "title": "Almost New Cards!",
-    "description": "Updated CSVs for the 2 new cards - however needs 3.7.2 to work correctly so look out for an update soon!"
+    "title": "New Master Tier Season!",
+    "description": "Updated season boosts and Master Tier scaling. Missing the new T5 levels for now since that needs an app update."
   },
   "csvData": {
     "baseUrl": "https://nrpriore.github.io/tt2-raid-data/v3/data/",
@@ -11,7 +11,7 @@
       "RaidResearch.txt": "sha256:c845df39674ef3c0ac821d1200bcb8f173683b3e1b223a5b1731b2130fe9204e",
       "Skill.txt": "sha256:b299642828471682e02a3b7c84ade91a08a603eda486dcdbb5241f2763e6c070",
       "TitanResearch.txt": "sha256:aa071ecd5de6889ba34bacd93d1b0f71b6f5aa787ca838ccc4fe4de0d7c80073",
-      "Level.txt": "sha256:dc51dfb251c5e3fff443f3506834caab772902ad64c68a3909983552b703aceb",
+      "Level.txt": "sha256:41b5eff4ac49c34639b301a46a4241bf15fbe943788a1240e8baf2471851e1fa",
       "Enemy.txt": "sha256:9d26aa3732122811547bee796e00bf682e18d48ce4afe8ed23e080b07ca37ffc",
       "GemstoneResearch.txt": "sha256:0cab82b4108bc7625187a5043b9cafd1959d90d6d8672b982df77559892cda7e"
     }
@@ -19,7 +19,7 @@
   "config": {
     "baseUrl": "https://nrpriore.github.io/tt2-raid-data/v3/config/",
     "files": {
-      "season.json": "sha256:38e907300e7c4f36d93a64a45f5e061edcb844d700012cd50be2983ca1d938f7"
+      "season.json": "sha256:0fcecb4cc975be4cb57dd614b303f77a3d00a5517d423cd7c8d52dd46feac357"
     }
   }
 }
