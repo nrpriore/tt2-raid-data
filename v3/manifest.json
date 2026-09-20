@@ -1,25 +1,25 @@
 ﻿{
-  "dataVersion": "2026.07.07-04.06",
+  "dataVersion": "2026.09.20-15.38",
   "releaseNotes": {
-    "title": "Almost New Cards!",
-    "description": "Updated CSVs for the 2 new cards - however needs 3.7.2 to work correctly so look out for an update soon!"
+    "title": "MT Season 18!",
+    "description": "Updated CSVs and Season boosts for Season 18 of MT."
   },
   "csvData": {
     "baseUrl": "https://nrpriore.github.io/tt2-raid-data/v3/data/",
     "files": {
       "Area.txt": "sha256:e97fa2d2f2694a458c79e18dddc9895a176f5e12257970db6ffef60fdc44f700",
-      "RaidResearch.txt": "sha256:c845df39674ef3c0ac821d1200bcb8f173683b3e1b223a5b1731b2130fe9204e",
-      "Skill.txt": "sha256:b299642828471682e02a3b7c84ade91a08a603eda486dcdbb5241f2763e6c070",
-      "TitanResearch.txt": "sha256:aa071ecd5de6889ba34bacd93d1b0f71b6f5aa787ca838ccc4fe4de0d7c80073",
-      "Level.txt": "sha256:dc51dfb251c5e3fff443f3506834caab772902ad64c68a3909983552b703aceb",
+      "GemstoneResearch.txt": "sha256:0cab82b4108bc7625187a5043b9cafd1959d90d6d8672b982df77559892cda7e",
+      "Level.txt": "sha256:3a7a5f0c17eb3874390d0e73559de3e12c6258efe0170f7789a24536774bb949",
       "Enemy.txt": "sha256:9d26aa3732122811547bee796e00bf682e18d48ce4afe8ed23e080b07ca37ffc",
-      "GemstoneResearch.txt": "sha256:0cab82b4108bc7625187a5043b9cafd1959d90d6d8672b982df77559892cda7e"
+      "RaidResearch.txt": "sha256:c845df39674ef3c0ac821d1200bcb8f173683b3e1b223a5b1731b2130fe9204e",
+      "Skill.txt": "sha256:2660f538c012c423a22e838201712357093672e32c78202d11ba40f598db1e36",
+      "TitanResearch.txt": "sha256:aa071ecd5de6889ba34bacd93d1b0f71b6f5aa787ca838ccc4fe4de0d7c80073"
     }
   },
   "config": {
     "baseUrl": "https://nrpriore.github.io/tt2-raid-data/v3/config/",
     "files": {
-      "season.json": "sha256:38e907300e7c4f36d93a64a45f5e061edcb844d700012cd50be2983ca1d938f7"
+      "season.json": "sha256:cf70154bd5b06f00aff0a2c5402f34d2a8f9eff134331362e0aa5d9b43a26e0e"
     }
   }
 }
